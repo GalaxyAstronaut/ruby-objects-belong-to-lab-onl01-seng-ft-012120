@@ -1,6 +1,4 @@
 class Author 
-  def initialize(name)
-    @name = name
-  end
+  att_accessor :name
   
 end
